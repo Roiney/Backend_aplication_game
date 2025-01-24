@@ -3,6 +3,8 @@ package com.devsuperior.dslist.entities;
 import jakarta.persistence.*;
 
 import java.util.Objects;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_game")
